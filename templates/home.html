@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<main class="container-fluid" id="{{ id }}-hello">
+    <div class="row">
+        <div class="col-sm-2 d-flex flex-column justify-content-center text-center">
+        </div>
+        <div class="col-sm-5 d-flex flex-column justify-content-center text-center">
+            <h2 class="text-sm-center"><a id="hello-there" href="/static/hello_there.gif">Hello there!</a></h4>
+            <p class="text-sm-center">I'm Ryan. I am currently the data analyst for the Tickle College of Engineering at the University of Tennessee, Knoxville, which is also where I graduated with a Master's degree in business analytics in 2016. I have over four years of experience in data science, and I love to learn more every day.</p>
+            <p class="text-sm-center">Outside of data science and analytics, I enjoy spending time with my wife, Madeline, son, Elliott, and two dogs, Nate and Millie. I also love anything related to Star Wars or craft beer.</p>
+        </div>
+        <div class="col-sm-5">
+            <img src="/static/UT_Photo.png" class="mx-auto d-block" alt="Data" id="hello-picture" >
+        </div>
+    </div>
+</main>
+{% endblock %}

@@ -1,15 +1,87 @@
-.container
-{
-    min-height: 500px;
+html, body {
+    background-color: #EDEDED;
+    height: 100%;
 }
 
-.col-auto
-{
-    position: absolute;
-    top: 50%;
-}
+/* Navbar styling */
 
-.navbar-brand
-{
+.navbar-light .navbar-brand {
+    font-family: "Playfair Display";
+    font-size: xx-large;
     font-weight: bold;
+    color: #1F3044;
+    background-color: #EDEDED;
 }
+
+#home-nav-link, #portfolio-nav-link, #blog-nav-link, #about-nav-link, #resume-nav-link {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    color: #1F3044;
+    background-color: #EDEDED;
+}
+
+#home-nav-link:hover, #portfolio-nav-link:hover, #blog-nav-link:hover, #about-nav-link:hover, #resume-nav-link:hover {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #c96f26;
+}
+
+.fa-linkedin, .fa-github, .fa-twitter, .fa-beer {
+    color: #1F3044;
+}
+
+.fa-linkedin:hover, .fa-github:hover, .fa-twitter:hover, .fa-beer:hover {
+    color: #c96f26;
+}
+
+/* Home Page Middle Section Styling */
+
+#home-hello {
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: #1F3044;
+    color: #EDEDED;
+}
+
+#hello-there {
+    font-family: "Playfair Display";
+    color: #EDEDED;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#hello-there:hover {
+    color: #c96f26
+}
+
+#hello-picture {
+    display: block;
+    height: 90%;
+    max-width: 100%;
+}
+
+/* Portfolio Styling */
+
+/*
+#portfolio-title {
+    background-color: #1F3044;
+    color: #EDEDED;
+    min-height: 25%;
+    height:auto !important;
+    height: 25%;
+    font-family: "Playfair Display";
+    font-size: xx-large;
+    font-weight: bold;
+}*/
+
+
+#portfolio-title {
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: #1F3044;
+    color: #EDEDED;
+}
+
+#portfolio-picture {
+    display: block;
+    height: 90%;
+    max-width: 100%;
+}
+

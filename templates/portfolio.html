@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<main class="container-fluid" id="{{ id }}-title">
+    <div class="row">
+        <div class="col-sm-2 d-flex flex-column justify-content-center text-center">
+        </div>
+        <div class="col-sm-5 d-flex flex-column justify-content-center text-center">
+            <h1 class="text-sm-center">Portfolio</h1>
+            <p class="text-sm-center">Below I have listed my data science projects with links to their code, blog post, and (if applicable) publication.</p>
+        </div>
+        <div class="col-sm-5">
+            <img src="/static/generic_data_pic.png" class="mx-auto d-block" alt="October 2019" id="portfolio-picture" >
+        </div>
+    </div>
+</main>
+{% endblock %}
