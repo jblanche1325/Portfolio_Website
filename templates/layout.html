@@ -38,8 +38,11 @@
     
     <body>
 
-        <nav class="navbar navbar-expand-md navbar-light sticky-top">
-            <a class="navbar-brand" id="{{ id }}-navbar-brand" href="/">Ryan Blanchette</a>
+        <nav class="navbar navbar-expand-md navbar-light border sticky-top" style="background-color: #EDEDED;">
+            <a class="navbar-brand" style="font-family: 'Playfair Display'; font-size: xx-large; font-weight: bold; color: #1F3044;" href="/">Ryan Blanchette</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
             	<ul class="navbar-nav mr-auto mt-2">
             	    <li class="nav-item">
@@ -72,7 +75,7 @@
                 	 </a>
             	   </li>
             	   <li class="nav-item">
-                	 <a target="_none" href="https://twitter.com" onclick="window.open('https://twitter.com')"class="nav-link d-flex flex-column" data-toggle="collapse">
+                	 <a target="_none" href="https://twitter.com/RyanBlanchett14" onclick="window.open('https://twitter.com')"class="nav-link d-flex flex-column" data-toggle="collapse">
                     	     <span class="fab fa-twitter fa-lg"></span>
                     	     <!--<span class="d-none d-sm-inline mt-1">Twitter</span>-->
                 	 </a>
@@ -92,7 +95,7 @@
         {% block content %}{% endblock %}
 
     
-       <footer class="small text-center text-muted" style="background-color: #EDEDED;">
+       <footer class="small text-center text-muted" style="background-color: #1F3044;">
            <p class="copyright">Copyright &copy; 2020 | Ryan Blanchette</p>
        </footer>
 
