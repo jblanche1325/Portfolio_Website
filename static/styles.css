@@ -366,8 +366,8 @@ h1, h2 {
 	color: #EDEDED;
 }
 
+.sql {width: 100%;}
 .R {width: 80%;}
-.sql {width: 80%;}
 .python {width: 60%;}
 
 .tidyverse {width: 80%;}
@@ -380,4 +380,4 @@ h1, h2 {
 
 .statistics {width: 80%;}
 .visualization {width: 80%;}
-.preprocessing {width: 60%;}
+.aws {width: 20%;}
